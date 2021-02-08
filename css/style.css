@@ -27,46 +27,9 @@
 
 }
 
-h1,
-h2,
-h3,
-p {
-  margin-top: 0;
-  margin-bottom: 0;
-}
 
-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
 
-li {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
 
-body {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-}
-
-header {
-    background-color: var(--header-background-clor);
-}
-
-.container {
-    width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
-
-.header-container {
-    display: flex;
-    align-items: center;
-    background-color: var(--secondary-title-color);
-}
 
 .footer {
     background-color: var(--secondary-background-color);
