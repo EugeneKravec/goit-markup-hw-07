@@ -1,0 +1,41 @@
+.filter-container {
+    padding-bottom: 50px;
+    background-color: var(--secondary-title-color);
+}
+
+.filter-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+
+.button-filter {
+    padding: 6px 22px;
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    background-color: var(--button-background-clor);
+}
+
+.button-filter:hover,
+.button-filter:focus {
+    background-color: var(--accent-color);
+    color: var(--secondary-title-color);
+    outline: none;
+}
+
+.button-item {
+    margin-right: 8px;
+}
+
+.button-item:last-child {
+    margin-right: 0;
+}
+
