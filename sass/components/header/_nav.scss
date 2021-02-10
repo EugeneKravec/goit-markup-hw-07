@@ -1,6 +1,5 @@
 .header-list {
     display: flex;
-    
     margin-left: 93px;
 
     font-weight: 500;
@@ -27,6 +26,11 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        color: getColor('button');
+}
 }
 
 .active-page {

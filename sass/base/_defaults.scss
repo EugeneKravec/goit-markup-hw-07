@@ -37,7 +37,7 @@ address {
     font-size: 14px;
     line-height: 2;
     letter-spacing: 0.03em;
-    color: var(--secondary-title-color);
+    color: getColor('secondary');
 }
 
 .list {
@@ -49,4 +49,8 @@ address {
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
+}
+
+.footer {
+    background-color: getColor('footer');
 }

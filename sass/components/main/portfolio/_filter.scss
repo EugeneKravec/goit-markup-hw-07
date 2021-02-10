@@ -1,6 +1,6 @@
 .filter-container {
     padding-bottom: 50px;
-    background-color: var(--secondary-title-color);
+    background-color: getColor('secondary');
 }
 
 .filter-list {
@@ -21,21 +21,23 @@
     text-align: center;
     letter-spacing: 0.03em;
 
-    background-color: var(--button-background-clor);
-}
+    background-color: getColor('icon-background');
 
-.button-filter:hover,
-.button-filter:focus {
-    background-color: var(--accent-color);
-    color: var(--secondary-title-color);
-    outline: none;
+    &:hover,
+    &:focus {
+        background-color: getColor('button');
+        color: getColor('secondary');
+        outline: none;
+    }
 }
 
 .button-item {
     margin-right: 8px;
+
+    &:last-child {
+        margin-right: 0;
+    }
 }
 
-.button-item:last-child {
-    margin-right: 0;
-}
+
 

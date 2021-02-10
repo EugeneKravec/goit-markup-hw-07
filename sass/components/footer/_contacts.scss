@@ -1,7 +1,6 @@
 .footer-container {
     display: flex;
     justify-content: space-between;
-    background-color: var(--secondary-background-color);
 }
 
 .footer-contacts {
@@ -15,7 +14,7 @@
     line-height: 1.19;
     letter-spacing: 0.03em;
 
-    color: var(--logo-color);
+    color: getColor('secondary');
 }
 .footer-logo {
     display: flex;
@@ -28,9 +27,8 @@
     line-height: 1.19;
     letter-spacing: 0.03em;
 
-    color: var(--accent-color);
+    color: getColor('button');
 }
-
 
 .footer-link {
     display: flex;
@@ -44,9 +42,10 @@
     letter-spacing: 0.03em;
 
     color: rgba(255, 255, 255, 0.6);
+
+    &:hover, 
+    &:focus {
+    color: getColor('button');
+    }
 }
 
-.footer-link:hover, 
-.footer-link:focus {
-    color: var(--accent-color);
-}

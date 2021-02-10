@@ -15,7 +15,19 @@
     line-height: 1.14;
     letter-spacing: 0.02em;
     
-    color: var(--text-color);
+    color: getColor('accent');
+
+    &:hover,
+    &:focus {
+        color: getColor('button');
+    }
+
+    &:hover .icon-mail,
+    &:hover .icon-smartphone,
+    &:focus .icon-mail,
+    &:focus .icon-smartphone {
+        fill: getColor('button');
+    }
 }
 
 .icon-mail {
@@ -23,7 +35,7 @@
     width: 16px;
     height: 12px;
 
-    fill: var(--text-color);
+    fill: getColor('accent');
 }
 
 .icon-smartphone {
@@ -31,23 +43,5 @@
     width: 10px;
     height: 16px;
 
-    fill: var(--text-color);
-}
-
-.header-contacts:hover,
-.header-contacts:focus {
-    color: var(--accent-color);
-}
-
-.header-contacts:hover .icon-mail,
-.header-contacts:hover .icon-smartphone,
-
-.header-contacts:focus .icon-mail,
-.header-contacts:focus .icon-smartphone {
-    fill: var(--accent-color);
-}
-
-.header-link:hover,
-.header-link:focus {
-    color: var(--accent-color);
+    fill: getColor('accent');
 }

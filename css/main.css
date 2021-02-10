@@ -36,7 +36,7 @@ address {
   font-size: 14px;
   line-height: 2;
   letter-spacing: 0.03em;
-  color: var(--secondary-title-color);
+  color: #ffffff;
 }
 
 .list {
@@ -48,6 +48,10 @@ address {
   width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.footer {
+  background-color: #2F303A;
 }
 
 .backdrop {
@@ -381,6 +385,10 @@ textarea {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.header-link:hover, .header-link:focus {
+  color: #2196F3;
+}
+
 .active-page {
   color: #2196F3;
 }
@@ -419,38 +427,32 @@ textarea {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--text-color);
+  color: #757575;
 }
 
-.icon-mail {
-  margin-right: 10px;
-  width: 16px;
-  height: 12px;
-  fill: var(--text-color);
-}
-
-.icon-smartphone {
-  margin-right: 10px;
-  width: 10px;
-  height: 16px;
-  fill: var(--text-color);
-}
-
-.header-contacts:hover,
-.header-contacts:focus {
-  color: var(--accent-color);
+.header-contacts:hover, .header-contacts:focus {
+  color: #2196F3;
 }
 
 .header-contacts:hover .icon-mail,
 .header-contacts:hover .icon-smartphone,
 .header-contacts:focus .icon-mail,
 .header-contacts:focus .icon-smartphone {
-  fill: var(--accent-color);
+  fill: #2196F3;
 }
 
-.header-link:hover,
-.header-link:focus {
-  color: var(--accent-color);
+.icon-mail {
+  margin-right: 10px;
+  width: 16px;
+  height: 12px;
+  fill: #757575;
+}
+
+.icon-smartphone {
+  margin-right: 10px;
+  width: 10px;
+  height: 16px;
+  fill: #757575;
 }
 
 .hero-line {
@@ -491,6 +493,7 @@ textarea {
   line-height: 1.87;
   text-align: center;
   letter-spacing: 0.06em;
+  color: #ffffff;
   background-color: #2196F3;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -631,7 +634,18 @@ textarea {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  background-color: var(--button-background-clor);
+  background-color: #F5F4FA;
+}
+
+.our-team-title {
+  margin-top: 0;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
 
 .team-item {
@@ -674,7 +688,7 @@ textarea {
   padding-bottom: 30px;
   padding-left: auto;
   padding-right: auto;
-  background: var(--secondary-title-color);
+  background: #ffffff;
 }
 
 .social-box {
@@ -716,13 +730,13 @@ textarea {
   height: 100%;
   border-radius: 50%;
   background: transparent;
-  fill: var(--icon-color);
+  fill: #AFB1B8;
 }
 
 .social-item .social-link:focus,
 .social-item .social-link:hover {
-  background: var(--accent-color);
-  fill: var(--logo-color);
+  background: #2196F3;
+  fill: #ffffff;
   outline-style: none;
 }
 
@@ -734,19 +748,21 @@ textarea {
   height: 20px;
 }
 
-.pic-instagram,
-.pic-twitter,
-.pic-facebook,
-.pic-linkedin {
-  width: 20px;
-  height: 20px;
-  fill: var(--secondary-title-color);
-}
-
 .clients {
   padding: 94px 0;
   margin: 0 auto;
-  background-color: var(--secondary-title-color);
+  background-color: #ffffff;
+}
+
+.clients-title {
+  margin-top: 0;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
 
 .clients-list {
@@ -761,14 +777,14 @@ textarea {
 .clients-item {
   width: 170px;
   height: 90px;
-  border: 1px solid var(--icon-color);
+  border: 1px solid #AFB1B8;
   border-radius: 4px;
   margin-right: 30px;
-  background: var(--secondary-title-color);
+  background: #ffffff;
 }
 
 .clients-item:hover, .clients-item:focus {
-  border: 1px solid var(--accent-color);
+  border: 1px solid #2196F3;
 }
 
 .clients-item:last-child {
@@ -789,15 +805,6 @@ textarea {
   height: 100%;
 }
 
-.icon-Client_1,
-.icon-Client_2,
-.icon-Client_3,
-.icon-Client_4,
-.icon-Client_5,
-.icon-Client_6 {
-  fill: var(--icon-color);
-}
-
 .clients-link:hover .icon-Client_1,
 .clients-link:hover .icon-Client_2,
 .clients-link:hover .icon-Client_3,
@@ -810,25 +817,21 @@ textarea {
 .clients-link:focus .icon-Client_4,
 .clients-link:focus .icon-Client_5,
 .clients-link:focus .icon-Client_6 {
-  fill: var(--accent-color);
+  fill: #2196F3;
 }
 
-.our-work-title,
-.our-team-title,
-.clients-title {
-  margin-top: 0;
-  margin-bottom: 50px;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--primary-title-color);
+.icon-Client_1,
+.icon-Client_2,
+.icon-Client_3,
+.icon-Client_4,
+.icon-Client_5,
+.icon-Client_6 {
+  fill: #AFB1B8;
 }
 
 .filter-container {
   padding-bottom: 50px;
-  background-color: var(--secondary-title-color);
+  background-color: #ffffff;
 }
 
 .filter-list {
@@ -854,13 +857,12 @@ textarea {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  background-color: var(--button-background-clor);
+  background-color: #F5F4FA;
 }
 
-.button-filter:hover,
-.button-filter:focus {
-  background-color: var(--accent-color);
-  color: var(--secondary-title-color);
+.button-filter:hover, .button-filter:focus {
+  background-color: #2196F3;
+  color: #ffffff;
   outline: none;
 }
 
@@ -872,13 +874,13 @@ textarea {
   margin-right: 0;
 }
 
-.project-name {
-  padding: 20px 24px;
-  border: 1px solid #EEEEEE;
-}
-
 .project-container {
   padding: 94px 15px;
+}
+
+.project-box {
+  padding: 20px 24px;
+  border: 1px solid #EEEEEE;
 }
 
 .project-list {
@@ -917,18 +919,22 @@ textarea {
 }
 
 .project-title {
+  font-family: Roboto;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  color: #212121;
 }
 
 .project-text {
+  font-family: Roboto;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  color: var(--text-color);
+  color: #757575;
+  color: #757575;
 }
 
 .footer-container {
@@ -938,7 +944,6 @@ textarea {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background-color: var(--secondary-background-color);
 }
 
 .footer-contacts {
@@ -951,7 +956,7 @@ textarea {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--logo-color);
+  color: #ffffff;
 }
 
 .footer-logo {
@@ -965,7 +970,7 @@ textarea {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--accent-color);
+  color: #2196F3;
 }
 
 .footer-link {
@@ -985,9 +990,8 @@ textarea {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-link:hover,
-.footer-link:focus {
-  color: var(--accent-color);
+.footer-link:hover, .footer-link:focus {
+  color: #2196F3;
 }
 
 .footer-social {
@@ -1002,7 +1006,7 @@ textarea {
   line-height: 0.87;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--secondary-title-color);
+  color: #ffffff;
 }
 
 .footer-box {
@@ -1033,7 +1037,7 @@ textarea {
 
 .footer-box .social-link:focus,
 .footer-box .social-link:hover {
-  background: var(--accent-color);
+  background: #2196F3;
   outline-style: none;
 }
 
@@ -1051,9 +1055,33 @@ textarea {
   height: 44px;
 }
 
+.pic-instagram,
+.pic-twitter,
+.pic-facebook,
+.pic-linkedin {
+  width: 20px;
+  height: 20px;
+  fill: #ffffff;
+}
+
 .footer-signup {
   width: 570px;
   padding: 60px 0;
+}
+
+.signup-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 12px;
+  padding-bottom: 20px;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 
 .form-field {
@@ -1073,30 +1101,15 @@ textarea {
           filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   outline: none;
-  background: var(--secondary-background-color);
+  background: #2F303A;
   color: rgba(255, 255, 255, 0.6);
-}
-
-.signup-title {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-top: 12px;
-  padding-bottom: 20px;
-  font-family: Roboto;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--header-background-clor);
 }
 
 .pic-send {
   width: 24px;
   height: 24px;
   margin-left: 10px;
-  fill: var(--logo-color);
+  fill: #ffffff;
 }
 
 .signup-button {
@@ -1118,8 +1131,8 @@ textarea {
   line-height: 1.87;
   text-align: center;
   letter-spacing: 0.06em;
-  color: var(--logo-color);
-  background-color: var(--accent-color);
+  color: #ffffff;
+  background-color: #2196F3;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
