@@ -88,7 +88,7 @@ address {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   width: 528px;
   height: 581px;
-  background: var(--secondary-title-color);
+  background: #ffffff;
 }
 
 .modal-button {
@@ -110,12 +110,11 @@ address {
   border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
   outline: none;
-  background-color: var(--secondary-title-color);
+  background-color: #ffffff;
 }
 
-.modal-button:focus,
-.modal-button:hover {
-  fill: var(--accent-color);
+.modal-button:focus, .modal-button:hover {
+  fill: #2196F3;
 }
 
 .modal-input {
@@ -165,12 +164,12 @@ address {
 
 .input-area:focus {
   outline: none;
-  border: 1px solid var(--accent-color);
+  border: 1px solid #2196F3;
   border-radius: 4px;
 }
 
 .input-area:focus + .input-icon {
-  fill: var(--accent-color);
+  fill: #2196F3;
 }
 
 .inputs {
@@ -186,7 +185,7 @@ address {
           transform: translateY(-5%);
 }
 
-textarea {
+.textarea {
   resize: none;
   padding: 12px 15px;
   margin-bottom: 20px;
@@ -204,7 +203,7 @@ textarea {
 
 .textarea:focus {
   outline: none;
-  border: 1px solid var(--accent-color);
+  border: 1px solid #2196F3;
 }
 
 .input-lable {
@@ -214,7 +213,7 @@ textarea {
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
-  color: var(--text-color);
+  color: #757575;
 }
 
 .deal-box {
@@ -241,7 +240,7 @@ textarea {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--text-color);
+  color: #757575;
 }
 
 .deal-lable::before {
@@ -253,14 +252,14 @@ textarea {
   width: 16px;
   height: 15px;
   background-color: #ffffff;
-  border: 1px solid #000000;
+  border: 1px solid #212121;
   border-radius: 2px;
 }
 
 .deal-input:checked + .deal-lable::before {
   border-radius: 2px;
-  border: 1px solid var(--accent-color);
-  background-color: var(--accent-color);
+  border: 1px solid #2196F3;
+  background-color: #2196F3;
   background-image: url(../images/accept.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -277,8 +276,8 @@ textarea {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
-  color: var(--logo-color);
-  background: var(--accent-color);
+  color: #ffffff;
+  background: #2196F3;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
